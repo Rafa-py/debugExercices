@@ -3,19 +3,19 @@
 <h3>Como fazer os exercícios.</h3>
 <ol>
   <li>Descomente a linha que instância a classe do exercícios no arquivo index.js
+</li>
   <img width="350px" src="./prints/howtodotheex.png">
-</li>
   <li>Clique na pasta “exercices”
-  <img width="350px" src="./prints/howtodotheex2.png">
 </li>
+  <img width="350px" src="./prints/howtodotheex2.png">
   <li>Abra o index.html no navegador para poder analisar os erros. 
 </li>
 </ol>
 <h3>Exemplos</h3>
 <h5>Exemplo1</h5>
 <p>Esta função, quando escrita com a sintaxe correta, retorna a mensagem ‘Olá’ no console. Porém, em vez disso, temos um erro. Nesta mensagem podemos ler que o bug está na linha 7 do arquivo exemplo01.js, e que ‘console.lg is not a function’. Portanto, podemos inferir que: 
-  <img width="350px" src="./prints/exemplo01error.png">
 </p>
+  <img width="350px" src="./prints/exemplo01error.png">
 <ol type="I">
   <li>console.lg não é uma função porque não foi declarada. 
 </li>

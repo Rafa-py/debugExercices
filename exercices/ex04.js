@@ -1,16 +1,16 @@
 class Exercice4{
     constructor(){
-        this.mostraDados();
+        this.calc();
     }
     // Retorna no console o resultado da expressão
     // matematica passada no input. 
-    mostraDados(){
+    calc(){
         let form = document.querySelector(".form");
         form.addEventListener("submit", (item)=>{
             item.preventDefault();
             let input = document.querySelector(".text").value;
-            let calc =  input.eval();
-            console.log(calc);
+            let calculo =  input.eval();
+            console.log(calculo);
         })
     }
 }

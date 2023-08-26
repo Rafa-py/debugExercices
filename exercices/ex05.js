@@ -1,16 +1,13 @@
 class Exercice5{
     constructor(){
-        this.mostraDados();
+        this.soma();
     }
-    // Retorna no console o resultado da expressão
-    // matematica passada no input. 
-    mostraDados(){
-        let form = document.querySelector(".form");
-        form.addEventListener("submit", (item)=>{
-            item.preventDefault();
-            let input = document.querySelector(".text").value;
-            let calc =  input.eval();
-            console.log(calc);
-        })
+    // Retorna a soma de dois numeros digitados 
+    //pelo usuário no prompt 
+    soma(){
+        let num1 = window.prompt("Digite um numero: ");
+        let num2 = window.prompt("Digite outro numero: ");
+        let soma = num1  + num2;
+        window.alert(soma);
     }
 }

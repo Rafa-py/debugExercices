@@ -2,7 +2,7 @@ class Exercice1{
     constructor(){
         this.pegaDados();
     }
-    // Retorna os dados digitados pelo usuário após o 
+    // Retorna no console os dados digitados pelo usuário após o 
     // botão ser clicado
     pegaDados(){
         let form = document.querySelector(".form");

@@ -5,4 +5,4 @@
 // let ex02 = new Exercice2();
 // let ex03 = new Exercice3();
 // let ex04 = new Exercice4();
- let ex05 = new Exercice5();
+// let ex05 = new Exercice5();
